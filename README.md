@@ -4,7 +4,7 @@
 ## Usage
 Show image picker with one line of code.
 ```swift
-HDImagePicker.showImagePickerFromVC(_sourceViewController, allowsEditing: true) { [weak self] (originImage: UIImage?, editedImage: UIImage?) in
+HDImagePicker.showImagePickerFromVC(_sourceViewController, allowsEditing: true) { (originImage: UIImage?, editedImage: UIImage?) in
   
   /// To do something
 }
